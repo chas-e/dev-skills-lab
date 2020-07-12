@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    text-align: justify;
+    padding: 0 10px;
+    color: orangered;
+}
+
+.input-group {
+    color: orangered;
+}
+
+.placeholder {
+    color: orangered;
+}
+
+.form-control {
+    text-align: left;
+    justify-content: left;
+    align-content: center;
+    color: orangered;
+}
+
+.btn-success {
+    background-color: olivedrab;
+    color: whitesmoke;
+}
+
+#skills-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border: 5px solid olivedrab;
+}
+
+#skill-header {
+    color: whitesmoke;
+    background-color: olivedrab;
+}
